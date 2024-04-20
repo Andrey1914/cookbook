@@ -3,7 +3,7 @@ import {
   HoverCard,
   HoverCardContent,
   HoverCardTrigger,
-} from "@/components/styles/HoverCard";
+} from "@/components/ui/hover-card";
 import {
   Flame,
   Clock4,

@@ -1,8 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
 import Generate from "@/components/Home/Generate";
-import { buttonVariants } from "@/components/styles/Button";
-import { Badge } from "@/components/styles/Badge";
+import { buttonVariants } from "@/components/ui/button";
+import { Badge } from "@/components/ui/badge";
 
 export default function Hero({ filters }) {
   return (
@@ -40,7 +40,10 @@ export default function Hero({ filters }) {
               </Badge>
               <Badge className="bg-zinc-800 hover:bg-zinc-800">Drinks</Badge>
             </div>
-            <Link href="/" className={buttonVariants({ variant: "link" })}>
+            <Link
+              href="/recipes"
+              className={buttonVariants({ variant: "link" })}
+            >
               View Recipes -&gt;
             </Link>
           </div>

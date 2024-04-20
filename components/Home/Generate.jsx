@@ -8,7 +8,7 @@ import useKeyPress from "@/components/hooks/useKeyPress";
 import recipeSet from "@/lib/recipesSet";
 import Hover from "@/components/Home/Hover";
 import RandomFilter from "@/components/Home/RandomFilter";
-import { Button } from "@/components/styles/Button";
+import { Button } from "@/components/ui/button";
 
 export default function Generate({ filters }) {
   const [recipe, setRecipe] = useState({});

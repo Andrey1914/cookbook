@@ -1,6 +1,6 @@
 "use client";
 
-import { Button } from "@/components/styles/Button";
+import { Button } from "@/components/ui/button";
 
 export default function FilterAction({ clearFilter }) {
   return (

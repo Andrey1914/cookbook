@@ -6,7 +6,7 @@ import {
   SelectLabel,
   SelectTrigger,
   SelectValue,
-} from "@/components/styles/Select";
+} from "@/components/ui/select";
 
 export default function RandomFilter({ filters, handleSelect }) {
   return (
