@@ -18,7 +18,7 @@ export default function Hero({ filters }) {
         <div className="mt-8 sm:mt-14 sm:flex justify-center items-center">
           <Image
             id="collage"
-            className="rounded sm:w-1/2"
+            // className="rounded sm:w-1/2"
             src="/foodplates.jpg"
             width={800}
             height={400}
