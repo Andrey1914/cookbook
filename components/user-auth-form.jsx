@@ -10,8 +10,8 @@ import { Label } from "@/components/ui/label";
 export function UserAuthForm({ className, ...props }) {
   const [isLoading, setIsLoading] = useState(false);
 
-  async function onSubmit(event) {
-    event.preventDefault();
+  async function onSubmit(e) {
+    e.preventDefault();
     setIsLoading(true);
 
     setTimeout(() => {

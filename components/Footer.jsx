@@ -42,7 +42,10 @@ export default function Footer() {
             Socials
           </h3>
           <div id="socials" className="flex flex-col text-slate-500 ">
-            <Link href="/" className="my-1 hover:text-slate-900">
+            <Link
+              href="/https://www.linkedin.com/in/andrei-kurka/"
+              className="my-1 hover:text-slate-900"
+            >
               LinkedIn
             </Link>
             <Link href="/" className="my-1 hover:text-slate-900">
